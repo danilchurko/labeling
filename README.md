@@ -19,5 +19,7 @@ MacOS
 - pip3 instal webdriver-manager
 
 After all run "python google_lableling_chrome.py" in terminal
+
 Default tabs per window - 5
+
 After it opend, you can back to terminal and wtire 'n' to open new batch of tabs in new window
