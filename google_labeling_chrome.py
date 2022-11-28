@@ -12,7 +12,10 @@ mem_index = 0
 limit = 5
 
 df = pd.read_csv("book.csv")  # file
-df = df.iloc[:, 4] + ' ' + df.iloc[:, 7]  # columns
+df = df.loc[:, 'MERCHANT NAME FOR GOOGLE SEARCH'] + ' ' + df.loc[:, 'Original Transaction Descriptor (Use this field ' \
+                                                                    'for reference)'] # columns
+
+print(df)
 
 fin_list = []  # final list with search row
 
