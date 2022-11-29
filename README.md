@@ -8,7 +8,7 @@ Linux
 MacOS
 
 - install brew (run command in terminal)
-- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+- /bin/bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
 ---
 - brew install pyenv
 - pyenv install 3.9.2
@@ -18,7 +18,7 @@ MacOS
 - pip3 install selenium
 - pip3 instal webdriver-manager
 
-After all run "python google_lableling_chrome.py" in terminal
+After all run 'python google_lableling_chrome.py' in terminal
 
 Default tabs per window - 5
 
